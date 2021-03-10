@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+#content {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/restaurant-image.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Akaya Telivigala', cursive;
+    color: rgb(255, 89, 89);
+
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    color: rgb(255, 89, 89);
+
+}
+
+p {
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    color: white;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transform: translate(-30px);
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+li {
+    font-size: large;
+    margin: 0 20px;
+    color: rgb(255, 89, 89);
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+
+}
+
+li:hover {
+    border-bottom: 2px solid rgb(255, 89, 89);
+    cursor: pointer;
+}
